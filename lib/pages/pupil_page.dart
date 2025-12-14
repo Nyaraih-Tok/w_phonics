@@ -53,7 +53,7 @@ class PupilsPage extends StatelessWidget {
                     ),
                     const SizedBox(height: 12),
                     const Text(
-                      "Based on the world's\nleading literacy programme",
+                      "Based on the world's\nleading literacy programme...",
                       textAlign: TextAlign.center,
                       style: TextStyle(
                         fontSize: 16,
