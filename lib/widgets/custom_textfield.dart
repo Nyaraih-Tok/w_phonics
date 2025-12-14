@@ -22,6 +22,9 @@ class CustomTextField extends StatelessWidget {
       obscureText: obscureText,
       keyboardType: textInputType,
 
+      style: const TextStyle(color: Colors.white),
+      cursorColor: Colors.white,
+
       decoration: InputDecoration(
         suffixIcon: suffixIcon,
         enabledBorder: OutlineInputBorder(
@@ -36,10 +39,8 @@ class CustomTextField extends StatelessWidget {
         labelText: label,
         labelStyle: TextStyle(color: Colors.white),
         focusColor: Colors.white,
-        
       ),
       cursorColor: Colors.white,
-      
     );
   }
 }
