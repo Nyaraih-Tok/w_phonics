@@ -31,16 +31,19 @@ class CustomTextField extends StatelessWidget {
           borderRadius: BorderRadius.circular(16),
           borderSide: BorderSide(color: Colors.white),
         ),
-        focusedBorder: OutlineInputBorder(
-          borderRadius: BorderRadius.circular(16),
-          borderSide: BorderSide(color: Colors.white),
-        ),
-        fillColor: Colors.white,
+
+        filled: false,
         labelText: label,
-        labelStyle: TextStyle(color: Colors.white),
-        focusColor: Colors.white,
+        labelStyle: const TextStyle(
+          color: Colors.white,
+          fontWeight: FontWeight.w600,
+        ),
+        hintStyle: const TextStyle(color: Colors.white70),
+        contentPadding: const EdgeInsets.symmetric(
+          horizontal: 16,
+          vertical: 12,
+        ),
       ),
-      cursorColor: Colors.white,
     );
   }
 }
