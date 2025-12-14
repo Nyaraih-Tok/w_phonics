@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 class PupilsPage extends StatelessWidget {
   const PupilsPage({super.key});
 
+  //list of pupils
   final List<Map<String, String>> pupils = const [
     {'name': 'Ayomide', 'group': 'A'},
     {'name': 'Chidera', 'group': 'B'},
